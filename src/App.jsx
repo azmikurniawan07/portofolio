@@ -7,7 +7,6 @@ import Resume from "./components/Resume";
 function App() {
   return (
     <>
-    <div>OKEOKEOK</div>
       <BrowserRouter>
         <Routes>
           <Route
