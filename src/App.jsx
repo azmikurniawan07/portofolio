@@ -11,7 +11,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route
-            path="/"
+            path=""
             element={
               <>
                 <div className="relative z-0 bg-[#181818]">
