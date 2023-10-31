@@ -7,9 +7,23 @@ import Resume from "./components/Resume";
 function App() {
   return (
     <>
-      <div>
-        OKEOKEOKEOKEOKE
-      </div>
+      <BrowserRouter>
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <>
+                <div className="relative z-0 bg-[#181818]">
+                  <Hero />
+                  <About />
+                  <SideMenu />
+                </div>
+              </>
+            }
+          />
+          <Route path="/resume" element={<Resume/>}/>
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
