@@ -26,8 +26,7 @@ const Hero = () => {
                   Hai, Saya Azmi Kurniawan, S.Kom
                 </h1>
                 <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-                  Saya Lahir di Pasaman, 29 July 1997, Lulusan S1 Ilmu Komputer
-                  di Universitas Putra Indonesia YPTK Padang pada 24 Mei 2023
+                  Saya Lahir di Pasaman, Lulusan S1 Ilmu Komputer di Universitas Putra Indonesia YPTK Padang pada 24 Mei 2023
                   Jurusan Sistem Informasi. Saya Menyukai Pekerjaan Di Bidang
                   Ilmu Komputer. Saya mampu bekerja secara Tim maupun Individu.
                   Saya siap membawa Ilmu yang saya peroleh untuk perusahaan.
